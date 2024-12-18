@@ -1,0 +1,16 @@
+{
+    "name": "monarch/snippet",
+    "description": "email many in cpanel",
+    "autoload": {
+        "psr-4": {
+            "Monarch\\Snippet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Monarch",
+            "email": "digitalmonarchltd@gmail.com"
+        }
+    ],
+    "require": {}
+}
