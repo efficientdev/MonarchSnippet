@@ -1,9 +1,9 @@
 {
-    "name": "monarch/snippet",
+    "name": "efficientdev/monarchsnippet",
     "description": "email many in cpanel",
     "autoload": {
         "psr-4": {
-            "Monarch\\Snippet\\": "src/"
+            "efficientdev\\MonarchSnippet\\": "src/"
         }
     },
     "authors": [

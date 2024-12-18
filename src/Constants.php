@@ -1,5 +1,5 @@
 <?php
-namespace Monarch\Snippet;
+namespace efficientdev\MonarchSnippet;
 
 /**
  * 

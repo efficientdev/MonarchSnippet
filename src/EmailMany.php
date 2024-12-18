@@ -1,10 +1,10 @@
 <?php
-namespace Monarch\Snippet;
+namespace efficientdev\MonarchSnippet;
 /**
  * 
  require_once 'vendor/autoload.php';
 
-$em = new \Monarch\Snippet\EmailMany();
+$em = new \efficientdev\MonarchSnippet\EmailMany();
 $em->post([]);
 
  */
