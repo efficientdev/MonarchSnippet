@@ -7,7 +7,7 @@ namespace Efficientdev\MonarchSnippet;
 $em = new \efficientdev\MonarchSnippet\EmailMany();
 $em->post([]);
  */
-use Konstants;
+use Efficientdev\MonarchSnippet\Konstants;
 
 class EmailMany
 {
