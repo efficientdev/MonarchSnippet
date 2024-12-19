@@ -50,10 +50,14 @@ class EmailMany
 
 	public function post($data){
 
+		// If you're sending data, use CURLOPT_POST and CURLOPT_POSTFIELDS
+		curl_setopt($this->ch, CURLOPT_POST, true);
+		curl_setopt($this->ch, CURLOPT_POSTFIELDS, json_encode($data??['key' => 'value']));
+
 
 		$response = curl_exec($this->ch); 
 		curl_close($this->ch);  
-		
+
 		var_dump($response);
 
 	}
