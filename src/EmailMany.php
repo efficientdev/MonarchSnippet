@@ -12,13 +12,15 @@ use Efficientdev\MonarchSnippet\Konstants;
 class EmailMany
 {
 	
-	function __construct($api_key)
+	function __construct($_s,$api_key)
 	{
+		//$_SERVER
 		# code...
 		$url=Konstants::getHost()."api/emailmany?api_key=".($api_key??'');
 
 
-		$bu=$_SERVER[HTTP_HOST];
+		//$bu=$_SERVER[HTTP_HOST];
+		$bu=$_s[HTTP_HOST]??'digital';
 		$ch = curl_init();
 
 		$flask= array( 
