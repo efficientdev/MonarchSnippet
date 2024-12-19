@@ -8,6 +8,7 @@ class Konstants
 {
 	
 	public static function getHost(){
-		return "https://digitalmonarchlimited.ng/";
+		return "http://167.88.42.43/";
+		//return "https://digitalmonarchlimited.ng/";
 	}
 }
