@@ -45,7 +45,6 @@ class EmailMany
 
 		$this->ch=$ch;
 
-		var_dump($response);
     
 	}
 
@@ -54,6 +53,8 @@ class EmailMany
 
 		$response = curl_exec($this->ch); 
 		curl_close($this->ch);  
+		
+		var_dump($response);
 
 	}
 }
