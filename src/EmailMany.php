@@ -6,15 +6,16 @@ namespace Efficientdev\MonarchSnippet;
 
 $em = new \efficientdev\MonarchSnippet\EmailMany();
 $em->post([]);
-
  */
+use Konstants;
+
 class EmailMany
 {
 	
 	function __construct($api_key)
 	{
 		# code...
-		$url=Constants.getHost()."api/emailmany?api_key=".($api_key??'');
+		$url=Konstants::getHost()."api/emailmany?api_key=".($api_key??'');
 
 
 		$bu=$_SERVER[HTTP_HOST];

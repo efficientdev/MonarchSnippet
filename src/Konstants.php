@@ -4,7 +4,7 @@ namespace Efficientdev\MonarchSnippet;
 /**
  * 
  */
-class Constants
+class Konstants
 {
 	
 	public static function getHost(){
