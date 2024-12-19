@@ -1,5 +1,5 @@
 <?php
-namespace efficientdev\MonarchSnippet;
+namespace Efficientdev\MonarchSnippet;
 /**
  * 
  require_once 'vendor/autoload.php';
